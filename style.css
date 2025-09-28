@@ -4,7 +4,7 @@ body {
   margin: 0;
   background: #335765;
   font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  color: #335765;
+  color: #DBE2DC;
   display: flex;
   flex-direction: column;
 }
@@ -117,7 +117,7 @@ select:focus {
 footer {
   text-align: center;
   font-size: 1.1rem;
-  color: #335765;
+  color: #DBE2DC;
   margin-bottom: 18px;
   margin-top: 30px;
   opacity: 0.85;
