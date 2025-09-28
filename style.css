@@ -1,0 +1,124 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #335765;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  color: #335765;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  color: #335765;
+}
+
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 1.6rem;
+  color: #7F543D;
+  font-weight: 600;
+}
+
+
+label {
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  display: block;
+  color: #335765;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 12px 16px;
+  border: 1.5px solid #74A8A4;
+  background: #DBE2DC;
+  margin-bottom: 1.2rem;
+  transition: border 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(51,87,101,0.04);
+  color: #335765;
+}
+select:focus {
+  border: 2px solid #335765;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(51,87,101,0.08);
+}
+
+
+.container {
+  width: 70vw;
+  max-width: 650px;
+  margin: 60px auto 30px auto;
+  background: #fff;
+  padding: 40px 32px 32px 32px;
+  box-shadow: 0 8px 32px 0 rgba(51,87,101,0.10);
+  border-radius: 18px;
+  border: 2px solid #B6D9E0;
+  backdrop-filter: blur(2px);
+}
+
+
+.city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 18px 0;
+  padding: 28px 0 18px 0;
+  border-bottom: 1.5px dashed #74A8A4;
+  background: #DBE2DC;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(51,87,101,0.04);
+  transition: background 0.2s;
+}
+.city:last-child {
+  border: none;
+}
+.city:hover {
+  background: #B6D9E0;
+}
+
+.city:last-child {
+  border: none;
+}
+
+
+.date {
+  opacity: 0.8;
+  font-size: 1.1rem;
+  color: #335765;
+}
+
+
+.time {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #7F543D;
+  letter-spacing: 1px;
+}
+.time small {
+  font-size: 1.2rem;
+  vertical-align: middle;
+  line-height: 2.5rem;
+  color: #74A8A4;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #335765;
+  margin-bottom: 18px;
+  margin-top: 30px;
+  opacity: 0.85;
+}

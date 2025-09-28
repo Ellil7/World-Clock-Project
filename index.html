@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>Luna World Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+
+
+
+      <label for="city1">City 1:</label>
+      <select id="city1">
+        <option value="">Select a city..</option>
+        <option value="current">My current location</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Asia/Hong_Kong">Hong Kong</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="America/Sao_Paulo">São Paulo</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+      </select>
+      <label for="city2">City 2:</label>
+      <select id="city2">
+        <option value="">Select a city..</option>
+        <option value="current">My current location</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Asia/Hong_Kong">Hong Kong</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="America/Sao_Paulo">São Paulo</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+      </select>
+
+      <div id="cities">
+        <div class="city default-los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city default-paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+   <footer>
+        This project was coded by
+        <a href="https://github.com/Ellil7" target="_blank"> Elli Luna</a>,
+        is
+        <a href="https://github.com/Ellil7/Weather-App-Project" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://unrivaled-mochi-e06434.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
